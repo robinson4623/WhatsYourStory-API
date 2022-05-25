@@ -21,6 +21,15 @@ class Prompts(generics.ListCreateAPIView):
         # Run the data through the serializer
         data = PromptSerializer(prompts, many=True).data
         return Response({ 'prompts': data })
+    def get(self, request):
+      """Index request"""
+      # Get all the stories:
+      # prompts = Prompt.objects.all()
+      # Filter the prompts by owner, so you can only see your owned prompts
+      prompts = Prompt.objects.filter(is_active=True)
+      # Run the data through the serializer
+      data = PromptSerializer(prompts, many=True).data
+      return Response({ 'prompts': data })
 
     def post(self, request):
         """Create request"""
