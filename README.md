@@ -50,24 +50,24 @@ Backend:
 In preparation for work on this app, I planned out wireframes, entity relationship diagrams, and user stories which can be found below.  
 
 ### Wireframe
-![App Wireframe](https://drive.google.com/file/d/1opjInsCDzePzzgq_IzmTIb5zd8Qjul6P/view?usp=sharing "What's your Story? App Wireframe")
+![App Wireframe](https://i.imgur.com/3JhOOdW.jpg)
 
 ### Entity Relationship Diagram (ERD)
-![App ERD](https://drive.google.com/file/d/1pWMG-DLMcj2gn4VO7MYLGdV2xWDafOPH/view?usp=sharing "What's Your Story? App ERD")
+![App ERD](https://i.imgur.com/xHHVzQf.jpg)
 
 ### User Stories
-- As a user I want to be able to:
-Sign up
-Sign in
-Change password
-Sign out
-Read a random prompt
-Create a story
-Create a prompt
-Enter a title
-Enter the story
-Edit previous title
-Edit previous story
+As a user I want to be able to:
+- Sign up 
+- Sign in
+- Change password
+- Sign out
+- Read a random prompt
+- Create a story
+- Create a prompt
+- Enter a title
+- Enter the story
+- Edit previous title
+- Edit previous story
 
 ### Future Functionality
 
